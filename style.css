@@ -1,0 +1,150 @@
+body{
+    background-color: rgb(233, 255, 233);
+    text-align: center;
+    
+}
+/* h1{
+    margin: 80px 200px;
+    width: 800px;
+    padding: 10x;
+} */
+.container{
+    /* background-color: white; */
+    width: 100%;
+    position: relative;     
+    text-align: center;
+}
+
+/* .container h4{
+    background-color: black;
+    color: white;
+   } */
+
+.whiteHead{
+    background-color: lightgreen;
+    width: 100%;
+    color: whitesmoke;
+}
+
+h4{
+    background-color: whitesmoke;
+    width: 100%;
+    color: lightgreen; 
+}
+
+.general{
+    /* padding: 10px; */
+    border-radius: 5px;
+    width: 250px;
+    height: 450px;
+    margin: 25px;
+    position: absolute;
+}
+
+.loss-container{
+    background-color:whitesmoke;
+    /* top:80px; */
+    left: 525px;
+    z-index: 10;
+    box-shadow: 5px 5px 5px 10px rgba(82, 82, 82, 0.1);
+}
+
+.gain-container:hover{
+    transition: 0.3s;
+    z-index: 20;
+    width: 280px;
+}
+
+
+
+.gain-container{
+    background-color: lightgreen;
+    border: none;
+    left: 285px;
+    box-shadow: 5px 5px 5px 10px rgba(82, 82, 82, 0.1);
+}
+.skin-container{
+    background-color:lightgreen;
+    right: 285px;
+    box-shadow: 5px 5px 5px 10px rgba(82, 82, 82, 0.1);
+}
+.general .skin-container img{
+    padding-top: 0px;
+}
+
+.skin-container:hover{
+    transition: 0.3s;
+    z-index: 20;
+    width: 280px;
+}
+
+img{
+    background-color: antiquewhite;
+}
+
+.loss-container p{  color: white;
+    width: 50px;
+    height: 50px;
+    padding: 12px;
+    border-radius: 70px;
+    background-color: lightgreen;
+    font-family: poppins;
+    font-weight: bold;
+    position: absolute;
+    top: 150px;
+    right: 17px;
+}
+
+p{  color: lightgreen;
+    width: 50px;
+    height: 50px;
+    padding: 12px;
+    border-radius: 70px;
+    background-color: whitesmoke;
+    font-family: poppins;
+    font-weight: bold;
+    position: absolute;
+    top: 150px;
+    right: 17px;
+    border-style:dashed;
+}
+
+h5{
+    padding-top: 20px; 
+    text-align:start;
+}
+.loss-green h5, .loss-green ul>li {
+    list-style: none;
+    text-align: start;
+    padding: 5px;
+    color: lightgreen;
+}
+
+h5,ul li {
+    list-style: none;
+    text-align: start;
+    padding: 5px;
+    margin-left: 3px;
+    color: whitesmoke;
+    /* margin: 0px; */
+}
+
+button{
+    border-radius: 10px;
+    padding: 5px;
+    /* margin: 20px 15px; */
+    background-color: whitesmoke;
+    color: lightgreen;
+    border: 1px solid lightgreen;
+    font-size: 20px;
+    padding: 10px;
+    width: 150px;
+
+}
+button:hover{
+   background-color: rgb(230, 252, 230);
+}
+/* .btn{
+    margin: 0px;
+}
+      */
